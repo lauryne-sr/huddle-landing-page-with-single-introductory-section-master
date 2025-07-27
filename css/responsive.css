@@ -1,0 +1,70 @@
+@media (min-width: 1000px) {
+    body {
+        background: var(--background-color) url('../images/bg-desktop.svg') no-repeat;
+        background-size: cover;
+        background-position: center top;
+    }
+
+    header {
+        padding: 10px;
+        margin: 0 0 0 40px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 60px;
+        gap: 40px;
+    }
+
+    .illustration,
+    .info {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .illustration {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .illustration img {
+        max-width: 150%;
+    }
+
+    .info {
+        text-align: left;
+        padding: 0;
+    }
+
+
+    .title {
+        font-size: 32px;
+        padding: 0 0 20px 0;
+    }
+
+    .description {
+        font-size: 16px;
+        padding: 0 0 20px 0;
+    }
+
+    button {
+        font-size: 14px;
+        width: 200px;
+        height: 40px;
+    }
+
+    footer {
+        margin-top: 40px;
+    }
+
+    ul {
+        justify-content: flex-end;
+        margin-right: 60px;
+    }
+
+}
