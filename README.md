@@ -26,4 +26,4 @@ This was my **second attempt** at the challenge — the first time didn’t go a
 
 ## 🚀 Live Preview
 
-[Add your live site link here, if you have one — like GitHub Pages or Netlify]
+[(https://lauryne-sr.github.io/huddle-landing-page-with-single-introductory-section-master/)]
